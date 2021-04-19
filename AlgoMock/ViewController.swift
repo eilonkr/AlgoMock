@@ -15,12 +15,17 @@ protocol World {
     
 }
 
+struct ViewModel {  
+    let world: World
+}
+
 class ViewController: UIViewController {
 
+    var viewModel: ViewModel
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
     }
 
 
