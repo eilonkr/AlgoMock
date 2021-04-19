@@ -21,7 +21,7 @@ struct ViewModel {
 
 class ViewController: UIViewController {
 
-    var viewModel: ViewModel
+    var viewModel: World
     
     override func viewDidLoad() {
         super.viewDidLoad()
