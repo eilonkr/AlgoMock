@@ -19,9 +19,13 @@ struct ViewModel {
     let world: World
 }
 
+protocol Coordinator {
+    
+}
+
 class ViewController: UIViewController {
 
-    var viewModel: World
+    var viewModel: (World & Coordinator)!
     
     override func viewDidLoad() {
         super.viewDidLoad()
