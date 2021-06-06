@@ -20,7 +20,7 @@ struct ViewModel {
 }
 
 protocol Coordinator {
-    
+    map, filter
 }
 
 class ViewController: UIViewController {
