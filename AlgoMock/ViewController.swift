@@ -26,6 +26,7 @@ protocol Coordinator {
 class ViewController: UIViewController {
 
     var viewModel: (World & Coordinator)!
+    what is happening
     
     override func viewDidLoad() {
         super.viewDidLoad()
